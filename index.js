@@ -5,7 +5,7 @@ import { spawn } from 'child_process';
 import { getSystemInfoTool, searchGoogleTool } from './tools.js';
 import { isCommandSafe } from './utils.js';
 
-const model = process.env.MODEL || 'gemma2:2b';
+const model = process.env.MODEL || 'llama3.2';
 
 const tools = [
     getSystemInfoTool(),
