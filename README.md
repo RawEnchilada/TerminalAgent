@@ -10,17 +10,6 @@ The **Terminal Agent** is a very small, locally hosted AI assistant that allows 
 - **Flexible Model Loading:** Load AI models dynamically via environment variables. (Uses Ollama)
 - **Interactive Command Selection:** Choose which commands to run, skip unsafe commands, or cancel altogether.
 
----
-
-## Table of Contents
-
-1. [Prerequisites](#prerequisites)
-2c. [Setup](#setup)
-3. [Usage](#usage)
-5. [Command Selection Options](#command-selection-options)
-6. [Customization](#customization)
-
----
 
 ## Prerequisites
 
@@ -68,7 +57,7 @@ When the assistant suggests shell commands, it offers several options for execut
 - Run Selected Commands: Specify specific commands to run (e.g., 1 4 to run commands 1 and 4).
 - Cancel Execution: Press Enter without typing anything to cancel the execution.
 
-## Customization
+## Tools
 ### Adding Tools
 
 The assistant supports integration with tools for additional functionality. Tools are defined in the tools.js file. Each tool must:
