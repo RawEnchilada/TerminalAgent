@@ -1,6 +1,6 @@
-# Assistant Shell Interface (ASI)
+# Terminal Agent
 
-The **Assistant Shell Interface (ASI)** is a very small, locally hosted AI assistant that allows users to perform system tasks by interacting with their computer's shell through a natural language interface. It leverages tools and shell commands to complete tasks efficiently while ensuring safety and user control.
+The **Terminal Agent** is a very small, locally hosted AI assistant that allows users to perform system tasks by interacting with their computer's shell through a natural language interface. It leverages tools and shell commands to complete tasks efficiently while ensuring safety and user control.
 
 ## Features
 
